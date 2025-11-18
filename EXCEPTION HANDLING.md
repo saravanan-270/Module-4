@@ -34,7 +34,7 @@ except:
 ```
 
 ### OUTPUT
-![image](https://github.com/user-attachments/assets/dad8c707-41b8-4d83-a9bf-ca489c6c8275)
+<img width="1017" height="201" alt="image" src="https://github.com/user-attachments/assets/31c833f0-027f-4372-ac68-74560ec2df93" />
 
 ### RESULT
 Thus a Python program that prompts the user for a list of grades separated by commas, splits the string into individual grades, and uses exception handling to inform the user if the values they entered cannot be converted to integers was implemented and executed successfully.
