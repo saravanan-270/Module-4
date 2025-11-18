@@ -34,37 +34,36 @@ To write a Python program to perform addition and division operations using a cl
 
 ### PROGRAM
 
-```
-
-class saveetha():
-    def _init_(self,a,b):
-        self.a=a
-        self.b=b
-    def add(self):
-        return self.a+self.b
-    def div(self):
-        return self.a/self.b
-a=int(input())
-b=int(input())
-obj=saveetha(a,b)
-o=1
-while o!=0:
-    o=int(input())
-    if o==1:
-        print("Result: ",obj.add())
-    elif o==2:
-        print("Result: ",round(obj.div()))
-    elif o==0:
+```python
+class CSE:
+    def setvalues():
+        global a
+        global b
+        a=int(input())
+        b=int(input())
+    def add(a,b):
+        return a*b
+    def div(a,b):
+        return int(a/b)
+CSE.setvalues()
+while(1):
+    c=int(input())
+     
+    if c==1:
+        print("Result: ",CSE.add(a,b))
+    elif c==2:
+        print("Result: ",CSE.div(a,b))
+    elif c==0:
         print("Exiting!")
+        break
     else:
         print("invalid choice")
-
-
 
 ```
 
 ### OUTPUT
-![image](https://github.com/user-attachments/assets/2e3762a0-d12e-4f9b-b77b-bbb784d3b609)
+<img width="677" height="329" alt="image" src="https://github.com/user-attachments/assets/21b6c144-387e-4610-afc1-511dbffe1d1d" />
+
 
 ### RESULT
-Thus a Python program to perform addition and division operations using a class. The class should be named Saveetha, and the function names should be setvalues (to set a and b values), add, and div was executed and implemented successfully.
+Thus the python program forperform addition and division operations using a class has been implemented and executed successfully.
